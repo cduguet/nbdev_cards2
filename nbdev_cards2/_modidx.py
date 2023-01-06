@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://cduguet.github.io',
                 'git_url': 'https://github.com/cduguet/nbdev_cards2',
                 'lib_path': 'nbdev_cards2'},
-  'syms': {'nbdev_cards2.core': {'nbdev_cards2.core.foo': ('core.html#foo', 'nbdev_cards2/core.py')}}}
+  'syms': { 'nbdev_cards2.core': { 'nbdev_cards2.core.Card': ('cards.html#card', 'nbdev_cards2/core.py'),
+                                   'nbdev_cards2.core.Card.__init__': ('cards.html#card.__init__', 'nbdev_cards2/core.py'),
+                                   'nbdev_cards2.core.Card.__repr__': ('cards.html#card.__repr__', 'nbdev_cards2/core.py')}}}
