@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_cards2"
+  site-url: "https://cduguet.github.io/nbdev_cards2"
+  description: "Second repository to quickly reproduce nbdev tutorial. For fun."
+  repo-branch: main
+  repo-url: "https://github.com/cduguet/nbdev_cards2"
