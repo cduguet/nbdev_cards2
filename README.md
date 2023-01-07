@@ -8,16 +8,34 @@ documentation.
 
 ## Install
 
+Install using pip:
+
 ``` sh
-pip install nbdev_cards2
+    pip install nbdev_cards2
+```
+
+or with conda:
+
+``` sh
+    conda install -c fastai nbdev_cards2
 ```
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+This lib provides a
+[`Card`](https://cduguet.github.io/nbdev_cards2/card.html#card) class
+that can be used to create, display and compare playing cards.
 
 ``` python
-1+1
+Card(1,3)
 ```
 
-    2
+    3♥
+
+Suits are numbered according to this list:
+
+``` python
+suits
+```
+
+    ['♠', '♥', '♦', '♣']
