@@ -11,4 +11,10 @@ d = { 'settings': { 'branch': 'main',
                                    'nbdev_cards2.card.Card.__init__': ('card.html#card.__init__', 'nbdev_cards2/card.py'),
                                    'nbdev_cards2.card.Card.__lt__': ('card.html#card.__lt__', 'nbdev_cards2/card.py'),
                                    'nbdev_cards2.card.Card.__repr__': ('card.html#card.__repr__', 'nbdev_cards2/card.py')},
-            'nbdev_cards2.deck': {'nbdev_cards2.deck.Deck': ('deck.html#deck', 'nbdev_cards2/deck.py')}}}
+            'nbdev_cards2.deck': { 'nbdev_cards2.deck.Deck': ('deck.html#deck', 'nbdev_cards2/deck.py'),
+                                   'nbdev_cards2.deck.Deck.__contains__': ('deck.html#deck.__contains__', 'nbdev_cards2/deck.py'),
+                                   'nbdev_cards2.deck.Deck.__init__': ('deck.html#deck.__init__', 'nbdev_cards2/deck.py'),
+                                   'nbdev_cards2.deck.Deck.__len__': ('deck.html#deck.__len__', 'nbdev_cards2/deck.py'),
+                                   'nbdev_cards2.deck.Deck.__str__': ('deck.html#deck.__str__', 'nbdev_cards2/deck.py'),
+                                   'nbdev_cards2.deck.Deck.shuffle': ('deck.html#deck.shuffle', 'nbdev_cards2/deck.py'),
+                                   'nbdev_cards2.deck.draw_n': ('deck.html#draw_n', 'nbdev_cards2/deck.py')}}}
